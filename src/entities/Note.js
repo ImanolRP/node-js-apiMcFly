@@ -1,6 +1,6 @@
 class Note{
-    constructor(note){
-        this.note = note;
+    constructor(text){
+        this.text = text;
         this.favorite = false;
         this.id = null;
     }

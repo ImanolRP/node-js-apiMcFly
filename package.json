@@ -4,6 +4,7 @@
   "description": "Tu jefe está loco, todos lo sabemos, porque sino, no es lógica la conversación que has tenido esta mañana con él.",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3"
   },
   "devDependencies": {},
