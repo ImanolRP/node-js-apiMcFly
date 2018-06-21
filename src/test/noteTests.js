@@ -21,7 +21,7 @@ describe('List of functions for the class Note.', function() {
         it('Should return 200 status and a json list of notes with favorite field to true', (done) => {
             request.get('/api/favorite')
                 .expect((res) => {
-                    res => {  if (note.favorite !== true) return err; }
+                    if (res.favorite !== true) return "Error: Some Note isn't favorite."; 
                 })
                 .expect(200, done);
         });
