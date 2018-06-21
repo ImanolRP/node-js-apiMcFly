@@ -11,8 +11,8 @@ Te has sentido como marty mcfly en regreso al futuro, y le has preguntado si con
 Como USUARIO quiero poder llamar al API para crear notas.
 *Como USUARIO quiero poder llamar al API para consultar las notas.
 *Como USUARIO quiero poder llamar al API para consultar una sóla nota.
-Como USUARIO quiero poder llamar al API para marcar favorita una nota.
-Como USUARIO quiero poder llamar al API para consultar las notas marcadas como favoritas.
+*Como USUARIO quiero poder llamar al API para marcar favorita una nota.
+*Como USUARIO quiero poder llamar al API para consultar las notas marcadas como favoritas.
 
 En cuanto a tecnologías, te da libertad absoluta, bueno, más bien, no presta ninguna atención a ese punto, pero sí que te ha pedido que sea en NodeJS porque ha oído por ahí que mola mucho, así que sientete libre para utilizar cualquier herramienta.
 
