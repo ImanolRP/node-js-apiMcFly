@@ -1,3 +1,5 @@
+# NodeJS API McFly 
+
 Tu jefe está loco, todos lo sabemos, porque sino, no es lógica la conversación que has tenido esta mañana con él.
 
 Ha llegado con los pelos canosos, largos y revueltos y lo primero que te ha dicho es que tiene una gran idea innovadora: “quiere hacer un muro donde la gente pueda poner frases y que el resto de la gente las pueda ver”. Además de poder “marcar como favoritas las notas/frases” y poder listar las que están marcadas como favoritas.
@@ -18,3 +20,25 @@ En cuanto a tecnologías, te da libertad absoluta, bueno, más bien, no presta n
 Para comprobar cómo has realizado el trabajo, tu jefe te pide que subas el proyecto a un sistema de control de versiones GIT (puede ser Github u otro) y que vayas haciendo subidas iteradas.
 
 Y, por último, para no quedar mal delante del jefe, te recomendamos que realices pruebas unitarias sobre el proyecto. No es que sea obligatorio, pero ya sabes que siempre es bueno quedar bien con el jefe.
+
+## Installation
+`$ git clone https://github.com/ImanolRP/node-js-apiMcFly`
+
+## Requirements
+* Node.js
+
+## Usage
+* Run project
+
+`$ npm run start`
+
+* Run tests
+
+`$ npm run test`
+
+* Build project
+
+`$ npm run build`
+
+### Author
+* frgarciames
