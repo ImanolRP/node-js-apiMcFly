@@ -8,5 +8,6 @@ api.get('/note/:id', noteController.findById);
 api.get('/favorite',noteController.findFavorites);
 api.put('/favorite/:id',noteController.markFavorite);
 api.post('/newNote',noteController.createNote);
+api.get('/help', noteController.help);
 
 module.exports = api;

@@ -74,10 +74,39 @@ function createNote(req, res){
     }
 }
 
+function help(req,res){
+    res.status(200);
+    res.json({  help: "http://localhost:8090/api/help",
+                findAll: {
+                    path: "http://localhost:8090/api/note",
+                    in: "None.",
+                    out: "All the notes"},
+                findById: {
+                    path: "http://localhost:8090/api/note/:id",
+                    in: "Id of the note.",
+                    out: "The specified note."},
+                findFavorites: {
+                    path: "http://localhost:8090/api/favorite",
+                    in: "None",
+                    out: "Notes marked as favorite."},
+                markFavorite: {
+                    path: "http://localhost:8090/api/favorite/:id",
+                    in: "Id of the note.",
+                    out: "Succesful or unsuccesful messaje."} ,
+                createNote: {
+                    path: "http://localhost:8090/api/newNote",
+                    in: {
+                        schema: "{'text' : 'Text for the new message.'}"
+                    },
+                    out: "Succesful or unsuccesful messaje."}
+    });
+}
+
 module.exports = {
     findAll,
     findById,
     findFavorites,
     markFavorite,
-    createNote
+    createNote,
+    help
 }
