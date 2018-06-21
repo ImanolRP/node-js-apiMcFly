@@ -38,7 +38,7 @@ function markFavorite(req, res){
             const index = notes.indexOf(note);
             note.favorite = true;
             notes[index] = note;
-            res.status(202);
+            res.status(200);
             res.json({response: 'Note marked as favorite.'})
         }else{
             res.status(404);
@@ -60,12 +60,11 @@ function createNote(req, res){
             }
         });
         const idToNewNote = parseInt(notesSorted[notesSorted.length-1].id + 1);
-        console.log(req.body);
         const newNote = new Note(
             idToNewNote,
             req.body.text);
         notes.push(newNote);
-        res.status(202);
+        res.status(201);
         res.json({response: 'Note added succesfully.'});
 
     }else{
