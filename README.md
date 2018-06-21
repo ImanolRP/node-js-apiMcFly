@@ -8,12 +8,17 @@ Y te ha pedido a tí que te encargues de hacer el API del proyecto, es el moment
 
 Te has sentido como marty mcfly en regreso al futuro, y le has preguntado si conocía Twitter, pero él se ha negado a escucharte y ha seguido con lo suyo, así que te has resignado y has conseguido sacarle un listado de historias de usuario.
 
-Como USUARIO quiero poder llamar al API, es decir, quiero poder tener un servidor local al que hacer una llamada HTTP y que me devuelva algo.
-Como USUARIO quiero poder llamar al API para crear notas.
-Como USUARIO quiero poder llamar al API para consultar las notas.
-Como USUARIO quiero poder llamar al API para consultar una sóla nota.
-Como USUARIO quiero poder llamar al API para marcar favorita una nota.
-Como USUARIO quiero poder llamar al API para consultar las notas marcadas como favoritas.
+1. Como USUARIO quiero poder llamar al API, es decir, quiero poder tener un servidor local al que hacer una llamada HTTP y que me devuelva algo.
+
+2. Como USUARIO quiero poder llamar al API para crear notas.
+
+3. Como USUARIO quiero poder llamar al API para consultar las notas.
+
+4. Como USUARIO quiero poder llamar al API para consultar una sóla nota.
+
+5. Como USUARIO quiero poder llamar al API para marcar favorita una nota.
+
+6. Como USUARIO quiero poder llamar al API para consultar las notas marcadas como favoritas.
 
 En cuanto a tecnologías, te da libertad absoluta, bueno, más bien, no presta ninguna atención a ese punto, pero sí que te ha pedido que sea en NodeJS porque ha oído por ahí que mola mucho, así que sientete libre para utilizar cualquier herramienta.
 
@@ -30,15 +35,12 @@ Y, por último, para no quedar mal delante del jefe, te recomendamos que realice
 ## Usage
 * Run project
 
-`$ npm run start`
+`$ npm app.js`
 
 * Run tests
 
 `$ npm run test`
 
-* Build project
-
-`$ npm run build`
 
 ### Author
-* frgarciames
+* ImanolRP
