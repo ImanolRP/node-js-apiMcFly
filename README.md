@@ -39,7 +39,7 @@ Y, por último, para no quedar mal delante del jefe, te recomendamos que realice
 
 * Run tests
 
-`$ npm run test`
+`$ mocha`
 
 
 ### Author
